@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#eee5dc" />
+    <meta
+      name="description"
+      content="RIMBARA. Tiga interpretasi alam dalam parfum yang personal. Temukan Embun Rimba, Teduh Iris, dan Senja Kayu."
+    />
+    <title>RIMBARA — Jejak alam, cerita milikmu.</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link
+      rel="preload"
+      href="/fonts/cormorantgaramond-latin.woff"
+      as="font"
+      type="font/woff"
+      crossorigin
+    />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#collection">Langsung ke koleksi</a>
+    <header class="header">
+      <a class="header-brand" href="#home" aria-label="Rimbara, beranda">
+        <svg class="brand-emblem" viewBox="0 0 44 44" fill="none" aria-hidden="true">
+          <path d="M22 39V21M22 29C8 30 5 19 7 9c11 0 18 7 15 20ZM22 23C20 11 28 5 38 5c1 10-5 19-16 18Z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="m13 17 9 12M22 23l9-11" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" />
+        </svg>
+        <span><span class="wordmark">RIMBARA</span><span class="brand-tagline">BOTANICAL PERFUMERY</span></span>
+      </a>
+      <nav id="main-nav" aria-label="Navigasi utama">
+        <a href="#collection">Koleksi</a><a href="#ingredients">Bahan</a
+        ><a href="#atelier">Atelier</a
+        ><button class="text-button" data-open="faq">Pertanyaan</button>
+      </nav>
+      <div class="header-actions">
+        <a class="header-cta" href="#collection">Jelajahi aroma <span aria-hidden="true">↗</span></a>
+        <button
+          class="bag-button"
+          data-open="cart"
+          aria-label="Buka tas belanja"
+        >
+          <span class="bag-icon" aria-hidden="true"></span
+          ><span class="bag-count">0</span></button
+        ><button
+          class="menu-toggle"
+          aria-label="Buka menu"
+          aria-expanded="false"
+          aria-controls="main-nav"
+        >
+          <span></span><span></span>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">PARFUM, DARI SUDUT PANDANG ALAM</p>
+          <h1>Jejak alam.<br /> Cerita milikmu.</h1>
+          <p class="body-copy">
+            Segar seperti pagi. Hangat seperti kenangan.<br /> Temukan aroma yang
+            terasa seperti dirimu.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="#collection"
+              >Temukan Aromamu <span aria-hidden="true">↗</span></a
+            ><a class="button outline" href="#atelier">Masuk ke Atelier</a>
+          </div>
+        </div>
+        <img
+          class="hero-branch branch"
+          src="/assets/hero-branch.webp"
+          alt="Ranting berlumut dengan bunga neroli putih"
+          fetchpriority="high"
+        />
+        <div
+          class="bottle-anchor"
+          id="hero-bottle"
+          aria-label="Botol parfum Rimbara Embun Rimba 3D"
+        ></div>
+        <div class="hero-facts">
+          <div><span>Karakter</span>Botanical</div>
+          <div><span>Konsentrasi</span>Extrait de parfum</div>
+          <div><span>Rasa</span>Personal</div>
+        </div>
+        <a class="scroll-cue" href="#approach"
+          ><span></span>SCROLL TO DISCOVER</a
+        >
+      </section>
+      <section class="approach section-pad" id="approach">
+        <div class="botanical botanical-1" data-leaf="1"></div>
+        <p class="eyebrow">FILOSOFI KAMI</p>
+        <h2 class="manifesto">
+          Kami percaya aroma terbaik membawamu kembali. Ke pagi yang
+          tenang, tanah selepas hujan, dan dirimu sendiri.
+        </h2>
+        <div class="botanical botanical-2" data-leaf="2"></div>
+      </section>
+      <section class="collection section-pad" id="collection">
+        <div class="section-heading">
+          <p class="eyebrow">THE COLLECTION</p>
+          <h2>Tiga suasana.<br /> Satu Rimbara.</h2>
+          <p>
+            Tiap aroma membuka cerita yang berbeda.<br /> Pilih yang paling dekat
+            denganmu.
+          </p>
+        </div>
+        <div class="product-grid">
+          <article class="product-card">
+            <button
+              class="product-image"
+              data-product="embun"
+              aria-label="Lihat parfum Embun Rimba"
+            >
+              <img
+                src="/assets/embun.webp"
+                alt="Embun Rimba, parfum hijau dengan bunga neroli"
+                loading="lazy"
+              /><span class="product-explore"
+                >Temukan aroma <span>↗</span></span
+              >
+            </button>
+            <div class="product-title">
+              <h3>Embun Rimba</h3>
+              <span>Rp890.000</span>
+            </div>
+            <p>Neroli · Bergamot · Vetiver</p>
+          </article>
+          <article class="product-card">
+            <button
+              class="product-image"
+              data-product="iris"
+              aria-label="Lihat parfum Teduh Iris"
+            >
+              <img
+                src="/assets/iris-product.webp"
+                alt="Teduh Iris dengan bunga iris ungu"
+                loading="lazy"
+              /><span class="product-explore"
+                >Temukan aroma <span>↗</span></span
+              >
+            </button>
+            <div class="product-title">
+              <h3>Teduh Iris</h3>
+              <span>Rp940.000</span>
+            </div>
+            <p>Iris · Violet · Soft musk</p>
+          </article>
+          <article class="product-card">
+            <button
+              class="product-image"
+              data-product="senja"
+              aria-label="Lihat parfum Senja Kayu"
+            >
+              <img
+                src="/assets/senja.webp"
+                alt="Senja Kayu, parfum amber di atas kayu cedar"
+                loading="lazy"
+              /><span class="product-explore"
+                >Temukan aroma <span>↗</span></span
+              >
+            </button>
+            <div class="product-title">
+              <h3>Senja Kayu</h3>
+              <span>Rp960.000</span>
+            </div>
+            <p>Cedar · Amber · Sandalwood</p>
+          </article>
+        </div>
+        <div class="botanical botanical-3" data-leaf="3"></div>
+      </section>
+      <section class="atelier" id="atelier">
+        <div class="botanical botanical-4" data-leaf="4"></div>
+        <div class="atelier-copy">
+          <p class="eyebrow">THE ATELIER</p>
+          <h2>Alam punya ritme.<br /> Kami mengikutinya.</h2>
+          <p>
+            Dari kesegaran pertama hingga jejak terakhir,<br /> setiap lapisan
+            punya waktunya untuk bercerita.
+          </p>
+        </div>
+        <img
+          class="atelier-branch branch"
+          src="/assets/atelier-branch.webp"
+          alt="Batang diagonal berlumut, daun hijau, dan bunga putih"
+          loading="lazy"
+        />
+        <div class="bottle-anchor" id="atelier-bottle" aria-hidden="true"></div>
+        <button
+          class="note-marker marker-one"
+          data-note="Bergamot"
+          aria-label="Tentang bergamot"
+        >
+          <span class="marker-dot"></span
+          ><span class="marker-label">Bergamot</span>
+        </button>
+        <button
+          class="note-marker marker-two"
+          data-note="Neroli"
+          aria-label="Tentang neroli"
+        >
+          <span class="marker-dot"></span
+          ><span class="marker-label">Neroli</span>
+        </button>
+        <button
+          class="note-marker marker-three"
+          data-note="Vetiver"
+          aria-label="Tentang vetiver"
+        >
+          <span class="marker-dot"></span
+          ><span class="marker-label">Vetiver</span>
+        </button>
+      </section>
+      <section class="ingredients section-pad" id="ingredients">
+        <div class="botanical botanical-5" data-leaf="5"></div>
+        <p class="eyebrow">BAHASA ALAM</p>
+        <h2>Kecil bentuknya.<br /> Dalam karakternya.</h2>
+        <p>
+          Kenali nuansa di balik setiap tetes.<br /> Dari kelopak yang lembut
+          hingga akar yang membumi.
+        </p>
+        <div class="ingredient-grid">
+          <button class="ingredient" data-note="Neroli">
+            <img
+              src="/assets/neroli.webp"
+              alt="Bunga neroli putih"
+              loading="lazy"
+            /><span class="ingredient-type">FLORAL · CITRUS</span
+            ><span class="ingredient-copy"
+              ><strong>Neroli</strong
+              ><span
+                >Bunga putih, segar,<br /> dengan sentuhan hijau.</span
+              ></span
+            >
+          </button>
+          <button class="ingredient" data-note="Iris">
+            <img
+              src="/assets/iris.webp"
+              alt="Bunga iris ungu"
+              loading="lazy"
+            /><span class="ingredient-type">FLORAL · POWDERY</span
+            ><span class="ingredient-copy"
+              ><strong>Iris</strong
+              ><span>Lembut dan berbedak,<br /> tenang di kulit.</span></span
+            >
+          </button>
+          <button class="ingredient" data-note="Cedar">
+            <img
+              src="/assets/cedar.webp"
+              alt="Dedaunan dan kulit pohon cedar"
+              loading="lazy"
+            /><span class="ingredient-type">WOODY · DRY</span
+            ><span class="ingredient-copy"
+              ><strong>Cedar</strong
+              ><span
+                >Kayu kering yang hangat,<br /> bersih dan menenangkan.</span
+              ></span
+            >
+          </button>
+          <button class="ingredient" data-note="Vetiver">
+            <img
+              src="/assets/vetiver.webp"
+              alt="Helaian daun vetiver hijau"
+              loading="lazy"
+            /><span class="ingredient-type">GREEN · EARTHY</span
+            ><span class="ingredient-copy"
+              ><strong>Vetiver</strong
+              ><span>Akar, tanah basah,<br /> dan hijau yang dalam.</span></span
+            >
+          </button>
+        </div>
+      </section>
+      <section class="featured" id="featured">
+        <div class="featured-visual">
+          <img
+            class="season-branch branch"
+            src="/assets/season-branch.webp"
+            alt="Dudukan kayu berlumut dengan dedaunan dan bunga"
+            loading="lazy"
+          />
+          <div
+            class="bottle-anchor"
+            id="featured-bottle"
+            aria-hidden="true"
+          ></div>
+        </div>
+        <div class="featured-copy">
+          <p class="eyebrow">AROMA PILIHAN</p>
+          <h2>Embun Rimba</h2>
+          <p class="featured-intro">
+            Sebuah pagi yang bisa kamu bawa. Segarnya citrus bertemu bunga
+            putih, lalu perlahan menjadi jejak hijau yang hangat.
+          </p>
+          <div class="note-tabs" role="tablist" aria-label="Lapisan aroma">
+            <button
+              role="tab"
+              aria-selected="true"
+              aria-controls="note-panel"
+              id="tab-opening"
+              data-tab="opening"
+            >
+              Pembuka</button
+            ><button
+              role="tab"
+              aria-selected="false"
+              aria-controls="note-panel"
+              id="tab-heart"
+              data-tab="heart"
+              tabindex="-1"
+            >
+              Inti</button
+            ><button
+              role="tab"
+              aria-selected="false"
+              aria-controls="note-panel"
+              id="tab-base"
+              data-tab="base"
+              tabindex="-1"
+            >
+              Jejak akhir
+            </button>
+          </div>
+          <div
+            class="note-panel"
+            id="note-panel"
+            role="tabpanel"
+            aria-labelledby="tab-opening"
+          >
+            <h3>Segar yang pelan.<br /> Pagi yang tinggal.</h3>
+            <p>Bergamot, mandarin hijau, neroli</p>
+          </div>
+          <fieldset class="size-options">
+            <legend class="sr-only">Ukuran botol</legend>
+            <label
+              ><input type="radio" name="size" value="30" /><span
+                >30 ml</span
+              ></label
+            ><label
+              ><input type="radio" name="size" value="50" checked /><span
+                >50 ml</span
+              ></label
+            ><label
+              ><input type="radio" name="size" value="100" /><span
+                >100 ml</span
+              ></label
+            ><strong id="featured-price">Rp890.000</strong>
+          </fieldset>
+          <div class="buy-row">
+            <div class="quantity">
+              <button id="qty-minus" aria-label="Kurangi jumlah">−</button
+              ><output id="quantity">1</output
+              ><button id="qty-plus" aria-label="Tambah jumlah">+</button>
+            </div>
+            <button class="button primary" id="add-featured">
+              Tambahkan ke Tas <span>↗</span>
+            </button>
+          </div>
+          <p class="purchase-note">
+            Extrait de parfum <span>Temukan ritme aromamu.</span>
+          </p>
+        </div>
+      </section>
+      <section class="journal section-pad" id="journal">
+        <div class="botanical botanical-6" data-leaf="6"></div>
+        <div class="journal-heading">
+          <div>
+            <p class="eyebrow">CATATAN RIMBARA</p>
+            <h2>Aroma & ingatan.</h2>
+          </div>
+          <span class="journal-category">SEBUAH CATATAN DARI ATELIER</span>
+        </div>
+        <div class="journal-content">
+          <div class="journal-controls">
+            <p>
+              <span id="story-number">01</span><span class="muted"> / 03</span>
+            </p>
+            <div>
+              <button id="story-prev" aria-label="Catatan sebelumnya">←</button
+              ><button id="story-next" aria-label="Catatan selanjutnya">
+                →
+              </button>
+            </div>
+          </div>
+          <div class="journal-text" aria-live="polite">
+            <blockquote id="story-quote">
+              “Ada tempat yang tak perlu kita datangi lagi. Cukup satu aroma,
+              dan kita sudah kembali.”
+            </blockquote>
+            <div class="journal-credit">
+              <span id="story-title">Tentang pulang</span
+              ><span>RIMBARA JOURNAL</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <img
+        src="/assets/footer-branch.webp"
+        alt=""
+        class="footer-branch"
+        width="1774"
+        height="887"
+        loading="lazy"
+      />
+      <div class="footer-top">
+        <a class="wordmark" href="#home">RIMBARA</a>
+        <p>
+          Sedikit lebih dekat dengan alam.<br /> Sedikit lebih dekat dengan
+          dirimu.
+        </p>
+        <a class="footer-cta" href="#collection"
+          >Temukan aroma pilihanmu <span>↗</span></a
+        >
+      </div>
+      <div class="footer-links">
+        <div>
+          <span>Rumah kami</span><a href="#approach">Filosofi</a
+          ><a href="#atelier">Atelier</a><a href="#journal">Catatan</a>
+        </div>
+        <div>
+          <span>Koleksi</span><button data-product="embun">Embun Rimba</button
+          ><button data-product="iris">Teduh Iris</button
+          ><button data-product="senja">Senja Kayu</button>
+        </div>
+        <div>
+          <span>Jelajahi</span><a href="#ingredients">Bahan & karakter</a
+          ><button data-open="faq">Pertanyaan</button
+          ><button data-open="cart">Tas pilihanmu</button>
+        </div>
+        <div class="footer-signoff">
+          <span>BOTANICAL PERFUMERY</span>
+          <p>Di antara alam<br /> dan ingatan.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> RIMBARA</span
+        ><span>JEJAK ALAM. CERITA MILIKMU.</span
+        ><button data-open="privacy">Privasi</button>
+      </div>
+    </footer>
+    <div id="bottle-stage" aria-hidden="true"></div>
+    <dialog id="cart" class="cart-dialog">
+      <div class="dialog-heading">
+        <p class="eyebrow">PILIHANMU</p>
+        <h2>Tas aroma</h2>
+        <button class="close-dialog" aria-label="Tutup tas">×</button>
+      </div>
+      <div id="cart-items"></div>
+      <div id="cart-summary">
+        <div><span>Total</span><strong id="cart-total">Rp0</strong></div>
+        <button class="button primary" id="save-bag">
+          Simpan Daftar Pilihan <span>↓</span>
+        </button>
+        <p class="dialog-note">
+          Koleksi konsep. Daftar dapat disimpan, pembelian online belum
+          tersedia.
+        </p>
+      </div>
+    </dialog>
+    <dialog id="product-dialog" class="product-dialog">
+      <button class="close-dialog" aria-label="Tutup detail produk">×</button
+      ><img id="product-detail-image" alt="" />
+      <div class="product-detail-copy">
+        <p class="eyebrow">RIMBARA · EXTRAIT DE PARFUM</p>
+        <h2 id="product-detail-name"></h2>
+        <p id="product-detail-description"></p>
+        <p id="product-detail-notes"></p>
+        <div class="detail-price">
+          <span>50 ml</span><strong id="product-detail-price"></strong>
+        </div>
+        <button class="button primary" id="add-product">
+          Tambahkan ke Tas <span>↗</span>
+        </button>
+      </div>
+    </dialog>
+    <dialog id="info-dialog" class="info-dialog">
+      <button class="close-dialog" aria-label="Tutup informasi">×</button>
+      <p class="eyebrow">RIMBARA ATELIER</p>
+      <h2 id="info-title"></h2>
+      <div id="info-content"></div>
+    </dialog>
+    <p class="toast" role="status" aria-live="polite"></p>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
